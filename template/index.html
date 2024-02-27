@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pothole Detection</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Pothole Detection</h1>
+        <form method="POST" action="/predict" enctype="multipart/form-data">
+            <input type="file" name="image">
+            <input type="submit" value="Predict">
+        </form>
+    </div>
+</body>
+</html>
