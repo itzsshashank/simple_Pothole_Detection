@@ -35,4 +35,15 @@ This project was created as a practice to apply for the Google Summer of Code (G
 2. Click the "Predict" button to detect potholes in the image.
 3. View the prediction result, which indicates whether potholes are present in the image.
 
+# Project Screenshots
+
+## Website
+![Website Screenshot](https://github.com/itzsshashank/simple_Pothole_Detection/blob/main/Assets/pothole_web.png)
+
+## Output
+![Output Screenshot](https://github.com/itzsshashank/simple_Pothole_Detection/blob/main/Assets/output_pothole.png)
+
+## Terminal
+![Terminal Screenshot](https://github.com/itzsshashank/simple_Pothole_Detection/blob/main/Assets/terminal.png)
+
 
