@@ -1,9 +1,46 @@
-body {
-    font-family: Arial, sans-serif;
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 3px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* below is for logo */
+.logo img {
+    height: 60px;
+    width: 100px;
+}
+
+nav ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    display: flex;
 }
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+#imagePreview {
+    margin-top: 20px;
+}
+
+#predictionResult {
+    margin-top: 20px;
+}
+
+
+/* below is for container */
 
 .container {
     max-width: 600px;
@@ -12,30 +49,76 @@ body {
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align content */
 }
 
+
 h1 {
-    text-align: center;
     color: #333;
 }
 
 form {
-    text-align: center;
     margin-top: 20px;
 }
 
 input[type="file"] {
     margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
 }
 
 input[type="submit"] {
-    padding: 5px 20px;
+    padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 input[type="submit"]:hover {
     background-color: #0056b3;
+}
+
+/* below is for footer */
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0; /* Ensure the footer starts from the left edge */
+    width: 100%;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.sitemap ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sitemap ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.sitemap ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.sitemap ul li a:hover {
+    text-decoration: underline;
 }

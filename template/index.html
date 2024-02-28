@@ -6,12 +6,42 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
+    <header>
+        <div class="logo">
+            <img src="static/pothole.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <div class="container">
         <h1>Pothole Detection</h1>
-        <form method="POST" action="/predict" enctype="multipart/form-data">
-            <input type="file" name="image">
-            <input type="submit" value="Predict">
+        <p>Upload an image to detect potholes:</p>
+        <form id="uploadForm" method="POST" action="/predict" enctype="multipart/form-data">
+            <input type="file" name="image" id="imageUpload">
+            <input type="submit" value="Predict" id="predictBtn">
         </form>
     </div>
+
+    <footer>
+        <div class="contact-info">
+            <p>Contact: email@example.com</p>
+            <p>Follow us on social media: <a href="#">Twitter</a></p>
+        </div>
+        <div class="sitemap">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
 </body>
 </html>
