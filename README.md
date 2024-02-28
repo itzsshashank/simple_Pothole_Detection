@@ -4,7 +4,7 @@
 This project aims to detect potholes in road images using machine learning techniques. The goal is to assist in identifying and prioritizing road maintenance efforts to improve road safety and infrastructure.
 
 **Note:**
-This project was created as a practice to apply for the Google Summer of Code (GSoC) 2024 project for the City of Boston. It is a sample project created for practicing machine learning and web development skills.
+I created this project as a practice to apply for the Google Summer of Code (GSoC) 2024 project for the City of Boston. It is a sample project created for practicing machine learning and web development skills.
 
 ## Features
 
